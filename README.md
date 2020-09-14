@@ -6,23 +6,17 @@ This project is to analyse the weather data in Oahu, to determine the temparatur
 
 ## Results
 
-The weather data is saved in SQLite database and analysis was performed using Python and SQLAlchemy
+The weather data is saved in SQLite database and analysis was performed using Python and SQLAlchemy. A Comparison of the statistics between the months June and December is shown below.
 
+**Comparison**
 
+![Comparison](https://github.com/ssathyanath/Surfs_Up/blob/master/Images/Comparison.png)
 
-* The average temperature in june is 
+* The total number of observations for June and December are almost similar. They are off by by ~ 150 entries
+* The average, minimum, maximum temperature in June is higher than that of the December
+* The standard deviation for June is lesser compared to December. This implies that the tempeartures in June are closer to mean compared to December
 
 ## Summary
 
-In summary, there are a total of 7 roles that has 90398 employees who are retiring as seen in the images below.
-
-**Role Count**
-
-![Role Count](https://github.com/ssathyanath/Pewlett-Hackard-Analysis/blob/master/z_Images/Retiring_Title_Count.PNG)
-
-**Total Employee Reaching Retirement Age**
-
-![Employee Count](https://github.com/ssathyanath/Pewlett-Hackard-Analysis/blob/master/z_Images/Total_Ret_Emp.PNG)
-
-There are only 1549 employee who are eligible for mentorship program. This is very less compared to the number of employess who are retiring. A comparison of retiring employee versus employees eligible for mentorship is shown below
-
+In summary, June tends to have warmer climate compared to December.
+Additional analysis was performed on the precipitation data available. The average precipitation for June is 0.13 and December is 0.22. The maximum precipitation for June is 4.43 and December is 6.42. This show that December is wetter compared to June. This futher reiterates our analysis that June is warmer compared to December.
